@@ -1,0 +1,18 @@
+{
+  "trade": {
+    "initial_cash": 500,
+    "daily_trade_limit": 3,
+    "max_position_per_stock": 5
+  },
+  "sentiment": {
+    "sources": ["newsapi"],
+    "newsapi_key": "48a0257bf9fa464599f8944b49810d6a",
+    "refresh_interval_minutes": 30,
+    "threshold": 0.1
+  },
+  "risk": {
+    "max_loss_pct": 0.02,
+    "wash_sale_days": 30,
+    "pdt_threshold": 4
+  }
+}

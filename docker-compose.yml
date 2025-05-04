@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  trader:
+    build: .
+    environment:
+      - ALPACA_API_KEY=${ALPACA_API_KEY}
+      - ALPACA_API_SECRET=${ALPACA_API_SECRET}
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+    restart: always
