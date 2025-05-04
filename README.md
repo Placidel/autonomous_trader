@@ -1,4 +1,3 @@
-
 autonomous_trader/
 ├── config/
 │   ├── settings.json
@@ -33,3 +32,5 @@ autonomous_trader/
 ├── main.py
 ├── requirements.txt
 └── README.md
+# autonomous_trader
+Stock trading pipeline using pulled articles for sentiment analysis and model training.
